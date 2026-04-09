@@ -22,6 +22,13 @@ public class MiniCalculadora {
         return Math.sqrt(numero);
     }
 
+    /**
+     * Calcula el valor absoluto de un número
+     * 
+     * @param numero Número del cual se va a obtener el valor absoluto
+     * @return Nos devuelve el valor absoluto del número introducido
+     * @see Math#abs(double) 
+     */
     public double valorAbsoluto(double numero) {
         return Math.abs(numero);
     }
